@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    136.31deg,
+    #0a0f07 14.16%,
+    #1f102b 53.39%,
+    #23193e 82.63%
+  );
+}
+
+#container {
+  padding: 40px 60px 40px 60px;
+}
+
+nav {
+  display: flex;
+  color: #fffefe;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+  transition: .5s;
+}
+
+nav ul li {
+  transition: .5s;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: #9f7fdb;
+  transition: .5s;
+}
+
+main {
+  color: #fffefe;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+main h1 {
+  color: #9f7fdb;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 3rem;
+  text-align: center;
+}
+
+form {
+  width: 50%;
+}
+
+input {
+  color: #fffefe;
+  background: #9f7fdb;
+  border-radius: 10px;
+  border: none;
+
+  padding: 0.6rem;
+}
+input::placeholder {
+  color: #fffefe;
+}
+
+.inputname {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.inputemail {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+form button {
+  width: 240px;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+button span {
+  display: inline-block;
+  transition: transform .5s ease-in-out;
+}
+
+button:hover span {
+  transform: scale(1.1);
+}
+
+.primarybutton {
+  background: #7834f3;
+  color: #fffefe;
+  transition: 0.5s;
+}
+
+.primarybutton:hover {
+  background: #5f1bdf;
+  cursor: pointer;
+}
+
+.secondarybutton {
+  background: #9f7fdb;
+  color: #fffefe;
+  transition: 0.5s;
+  margin-left: 176px;
+}
+
+.secondarybutton:hover {
+  background: #8760cf;
+  cursor: pointer;
+}
